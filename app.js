@@ -8,7 +8,7 @@ function sortear(){
 
     if(isNaN(qtdNum) || isNaN(deNum) || isNaN(ateNum)){
         alert('Preencha todos os campos para realizar o sorteio');
-    } else if (qtdNum > (ateNum - deNum)){
+    } else if (qtdNum > (ateNum - deNum + 1)){
         alert('O intervalo de números não pode ser menor que a quantidade a ser sorteada');
     }else{
         while(qtdNum > 0){
